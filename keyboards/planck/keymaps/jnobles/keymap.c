@@ -97,14 +97,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | XXXX | F1   | F2   | F3   | F4   | XXXX | XXXX | XXXX | XXXX | XXXX | XXXX | XXXX |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      | XXXX |      |      | XXXX | End |Pg Dn |Pg Up | Home  |
+ * |      |      |      |      | XXXX |      |      | XXXX | Home |Pg Dn |Pg Up | End  |
  * `-----------------------------------------------------------------------------------'
  */
 [_FUNCTION] = LAYOUT_planck_grid(
     KC_PSCR, KC_F9,   KC_F10,  KC_F11,  KC_F12,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
     XXXXXXX, KC_F5,   KC_F6,   KC_F7,   KC_F8,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
     XXXXXXX, KC_F1,   KC_F2,   KC_F3,   KC_F4,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-    _______, _______, _______, _______, XXXXXXX, _______,  _______, XXXXXXX, KC_END,  KC_PGDN, KC_PGUP, KC_HOME
+    _______, _______, _______, _______, XXXXXXX, _______,  _______, XXXXXXX, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 ),
 
 /* Adjust (Lower + Raise)
